@@ -11,7 +11,7 @@
       ResolveRenderingDatasourceArgs resolveRenderingDatasourceArgs = new ResolveRenderingDatasourceArgs(datasource);
       resolveRenderingDatasourceArgs.CustomData["contextItem"] = contextItem;
       CorePipeline.Run("resolveRenderingDatasource", resolveRenderingDatasourceArgs, false);
-      return contextItem.Database.GetItem(resolveRenderingDatasourceArgs.Datasource);
+      return contextItem.Database.GetItem(resolveRenderingDatasourceArgs.Datasource, contextItem.Language);
     }
   }
 }
