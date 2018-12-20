@@ -12,7 +12,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sitecore.Support</RootNamespace>
-    <AssemblyName>Sitecore.Support.290142</AssemblyName>
+    <AssemblyName>Sitecore.Support.290142.12975</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -54,6 +54,10 @@
       <HintPath>..\packages\SXA90.Sitecore.XA.Foundation.Common.1.7.1\lib\Sitecore.XA.Foundation.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.XA.Foundation.Presentation, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SXA90.Sitecore.XA.Foundation.Presentation.1.7.1\lib\Sitecore.XA.Foundation.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -65,7 +69,7 @@
     <Compile Include="SaveCompositeItems.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.290142.config" />
+    <Content Include="App_Config\Include\zzz\Sitecore.Support.290142.12975.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
